@@ -1,6 +1,13 @@
+// import                              "./env.js"
+// import 'dotenv/config'
+// require( '{ path: '/custom/path/to/.env' }
+
+// dotenv_config__WEBPACK_IMPORTED_MODULE_0__
+
    import { useEffect, useState } from "react";
 
-       var  aAPI_URL  = 'http://localhost:50114/api/invoices'
+//     var  aAPI_URL  = 'http://localhost:50114/api/invoices'
+       var  aAPI_URL  =  process.env.REACT_APP_API_URL; 
 
 //  ------------------------------------------------------------------
 
