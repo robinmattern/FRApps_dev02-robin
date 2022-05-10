@@ -9,7 +9,9 @@
 //          NavMenu.setItems() // Executed when loaded (if it is defined) 
 //          getStyleSheet(   './assets/css/faq-collapse.css' )   
 
-   import   setPanels  from  './assets/js/expanding-cards_u6.js'      // default export
+   import   fmtPanels  from  './assets/js/expanding-cards_u3.js'      // default export
+   import   setPanels  from  './assets/js/expanding-cards_u2.js'      // default export
+            fmtPanels( )       // Executed now, not when loaded  
             setPanels( )       // Executed now, not when loaded  
 //          getStyleSheet(   './assets/css/faq-collapse.css' )   
    
