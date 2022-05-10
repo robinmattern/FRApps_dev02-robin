@@ -8,7 +8,7 @@
    import { NavMenu }  from  './assets/js/navigation-items_u2.js'     // named export
 //          NavMenu.setItems() // Executed when loaded (if it is defined) 
 
-   import   setPanels  from  './assets/js/expanding-cards_u6.js'      // default export
+   import   setPanels  from  './assets/js/expanding-cards_u2.js'      // default export
             setPanels( )       // Executed now, not executed when loaded  
    
 // import   setFAQs    from  './assets/js/faq-collapse_u2.js'
