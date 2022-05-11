@@ -14,15 +14,22 @@
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Debug 1c-html-custom-app",
-      "url": "http://localhost:5500/client/1c-html-custom-app/index.html",
+      "name": "Debug expanding-cards",
+      "url": "http://localhost:5500/client/0c-html-widgets/expanding-cards/index.html",
       "webRoot": "${workspaceFolder}"
        },
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Debug expanding-cards",
-      "url": "http://localhost:5500/client/0c-9of50-html-widgets/expanding-cards/index.html",
+      "name": "Debug 1c_u3-html-custom-app",
+      "url": "http://localhost:5500/client/1c-html-custom-app/index_u3.html",
+      "webRoot": "${workspaceFolder}"
+       },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Debug 1c_u4-html-custom-app",
+      "url": "http://localhost:5500/client/1c-html-custom-app/index_u4.html",
       "webRoot": "${workspaceFolder}"
        }
   ]
