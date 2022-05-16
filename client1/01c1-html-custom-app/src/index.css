@@ -1,3 +1,5 @@
+@import "./components/Toolbar/Toolbar.css"; /* must be at the top */
+
 html {
     height: 100%; /* needed for SideDrawer */
     }
@@ -14,3 +16,7 @@ main {
     margin-top: 64px;
     margin-left: 10px;  
     }
+
+
+
+
