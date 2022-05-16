@@ -1,0 +1,28 @@
+
+.toggleButton { 
+    display: flex; 
+    flex-direction: column;             /* Stack DIVs vertically */
+/*  justify-content: space-between;   */  
+    justify-content: space-around;      /* better */ 
+    height: 24px; 
+    width: 30px; 
+    background: transparent;    
+    border: none; 
+    cursor: pointer;
+    padding: 0px;                       /* no effect */
+    box-sizing: border-box;             /* no effect */
+    }
+
+.toggleButton:focus { 
+    outline: none;
+    }
+
+.toggleButton_line { 
+    width: 100%;                        /* or 30px; no effect */
+    height: 4px; 
+    background: white;
+    }
+
+/* hide toggleButton in phone */
+
+

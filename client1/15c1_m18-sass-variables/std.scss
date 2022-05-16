@@ -1,0 +1,18 @@
+/*   include std.scss */
+
+html,
+body,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    }
+body {
+    color:$grey;
+    font-family: Helvetica, sans-serif;
+    background-image: url('/img/backimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }

@@ -1,0 +1,92 @@
+.toolbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #85e1a0;
+    height: 58px;
+    }
+
+.toolbar_nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0px 15px;    /* Space between ToorBar edge and Logo */
+    }
+
+.toolbar_logo {
+    margin-left: 15px;    /* Space between ToggleButton and Logo */
+    width: 225px;
+    margin-top: -6px;
+    background-image: url( '../../assets/logos/FormR_Logo-01_225x50.png' );
+    }
+
+.toolbar_logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 36px;  /* was: 2rem */
+    }
+
+.toolbar_spacer {
+    flex: 1;              /* Space between left and right items */
+    }    
+    
+.toolbar_nav-items ul {
+    list-style: none;
+    font-size: 36px;                  /* to file in 769 width. was: 2rem */
+    text-shadow: 3px 1.5px #6f6e6e;
+    font-weight: bold;
+    margin: 6px 0px 0px 0px;          /* top, left, bottom right */ 
+    padding: 0px;
+    display: flex;
+    flex-flow: row;                   /* Space DIVs horizontally */
+    }
+
+.toolbar_nav-items li {
+    padding: 0 10px;
+    }
+
+.toolbar_nav-items a {
+    text-decoration: none;
+    color: white;
+    }
+
+.toolbar_nav-items a:hover, 
+.toolbar_nav-items a:active {
+    color: #fa923f;
+    }
+
+#cta a {                      /* id: cta - Call-to-Action button */ 
+    color: white;
+    background: #ff1b68;
+    padding: 6px 16px 4px;        /* was: */ 
+    margin-top: 0px;   
+    border-radius: 8px;
+/*  background-image: url( '../../assets/avatars/FormR_Avatar-Admin_32x32.png' ) */
+    }
+
+#cta a:hover,
+#cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+    }
+
+/* hide toolbar on phone */
+
+@media ( max-width: 900px )  { /* if less than 768 */
+  .toolbar_nav-items {
+    display : none 
+  } }
+
+/* hide toggleButton in PC browser */
+
+@media ( min-width: 901px )  { /* if more than 768 plus 1 */
+  .toolbar_toggleButton {
+    display : none 
+    } 
+  .toolbar_logo {
+    margin-left: 0px;
+  } }  
+
+

@@ -1,0 +1,48 @@
+
+.sideDrawer { 
+    height: 100%; 
+    background: white;    
+    box-shadow: 2px 0px 5px rgb(0,0,0, 0.5);  /* or: 1px 0px 7px -- Max likes this more */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 70%;                 /* of width of phone */
+    max-width: 400px;    
+    z-index: 200;
+    transform: translateX( -100% );       /* closed, offscreen to the left */
+    transition: transform 0.3s ease-out;  /* animated: ease-out style, transform, in .3s */
+    }
+
+.sideDrawer.open {
+    transform: translateX( 0 );           /* open */
+    }
+
+.sideDrawer ul { 
+    height: 100%;               /* to center items vertically */
+    list-style: none;           
+    display: flex;
+    flex-direction: column;
+    justify-content: top;       /* Max set it to center items vertically */
+    }    
+
+.sideDrawer li { 
+    margin: 4px 0px;            /* vertical spacing: 0.25rem == 4px */
+    }
+
+.sideDrawer a { 
+    color: blue;
+    text-decoration: none;
+    font-size: 28px;          /* Max set it to: 1.2rem == 19.2px  */
+    }
+
+.sideDrawer a:hover, 
+.sideDrawer a:active { 
+    color: #fa923f;
+    }
+
+/* hide sideDrawer in PC browser */
+
+@media ( min-width: 901px )  { /* if more than 768 plus 1 */
+  .sideDrawer {
+    display : none 
+  } } 
